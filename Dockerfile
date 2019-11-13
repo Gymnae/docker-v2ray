@@ -27,7 +27,7 @@ COPY --from=builder /usr/bin/v2ray  /usr/bin/v2ray
 
 ENV PATH /usr/bin/v2ray/:$PATH
 
-EXPOSE 443
+EXPOSE 443 10000
 COPY config.json /etc/v2ray/config.json
 
 CMD ["/usr/bin/v2ray/v2ray", "-config=/etc/v2ray/config.json"]
