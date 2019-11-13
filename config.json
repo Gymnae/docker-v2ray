@@ -11,6 +11,7 @@
       "clients": [
         {
           "id": "AED6228E-128D-40B6-896D-3609B9ECA3A4",
+          "level": 1,
           "alterId": 64
         }
       ]
@@ -18,7 +19,8 @@
      "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/ws"
+          "connectionReuse": false,
+          "path": "/"
         }
     }
   }],
