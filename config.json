@@ -6,7 +6,6 @@
   },
   "inbounds": [{
     "port": 10000,
-    "listen":"127.0.0.1",
     "protocol": "vmess",
     "settings": {
       "clients": [
@@ -14,14 +13,13 @@
           "id": "11c2a696-0366-4524-b8f0-9a9c21512b02",
           "level": 1,
           "alterId": 64,
-          "security": "auto",
         }
       ]
      },
      "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/ws/"
+          "path": "/ws"
         }
     }
   }],
